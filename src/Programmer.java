@@ -8,11 +8,12 @@ public class Programmer {
     }
 
     public String printDetails() {
-        return (name + " " + "is a " + age + " - year old programmer.");
+
+       return (name + " " + "is a " + age + " - year old programmer.");
     }
 
     public String hasGlasses(){
-        return ("Is " + name + " wearing glasses? :WQ\.::::::::\" + wearsGlasses);
+        return ("Is " + name + " wearing glasses? " + wearsGlasses);
 
     }
 
